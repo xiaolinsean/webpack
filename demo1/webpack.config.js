@@ -38,6 +38,7 @@ module.exports = {
         ],
     },
     
+    //插件
     plugins: [
         new HtmlWebpackPlugin({
             title: 'webpack demo1',
