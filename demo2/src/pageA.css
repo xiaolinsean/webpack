@@ -1,0 +1,5 @@
+body{
+    /* background: linear-gradient(red, blue); */
+    background-color: pink;
+    display: flex;
+}

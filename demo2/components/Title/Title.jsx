@@ -2,14 +2,14 @@
  * title components
  */
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import "./style.css";
 
 export default class Title extends Component {
     constructor(props){
         super();
     }
     render() {
-        return <h1>{this.props.title}</h1>
+        return <h1 className="title">{this.props.title}</h1>
     }
 }
 
